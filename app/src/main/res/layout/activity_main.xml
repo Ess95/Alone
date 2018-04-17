@@ -25,6 +25,18 @@
         android:padding="20dp"/>
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:text="Have a blast!!"
+        android:layout_below="@+id/HBD_text_view"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-light"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
         android:id="@+id/from_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
